@@ -29,7 +29,7 @@ export default (() => {
                     result.textContent = 'Error';
                 } operation.textContent = "";
             } else {
-                result.textContent = 'Invalid expression';
+                result.textContent = 'Expresión incorrecta';
                 operation.textContent = "";
             }
         }
